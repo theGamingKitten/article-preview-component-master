@@ -11,8 +11,6 @@
     --font-size: 13px;
 
     --border-radius: 15px;
-
-    --border: 1px solid black;
 }
 
 * {
@@ -34,7 +32,6 @@ body {
     border-radius: var(--border-radius);
     display: flex;
     flex-direction: row;
-    border: var(--border);
 
     /* center the container in both directions */
     margin: 0;
@@ -118,6 +115,53 @@ button:hover {
 .share {
     object-fit: scale-down;
     object-position: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    background-color: var(--very-dark-grayish-blue);
+    color: var(--grayish-blue);
+    text-align: center;
+    border-radius: 10px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 113%;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.tooltiptext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.tooltiptext > img,
+.tooltiptext > span {
+    margin: 0 5px;
+    letter-spacing: 1.5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
 }
 
 @media (max-width: 430px) {

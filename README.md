@@ -65,8 +65,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Text](https://www...) - text
+- [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - very useful site about css grids, with which I'm still struggeling
+- [w3schools](https://www.w3schools.com/css/css_tooltip.asp/) - used w2schools to implement the tooltip
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@theGamingKitten](https://www.frontendmentor.io/profile/theGamingKitten)
