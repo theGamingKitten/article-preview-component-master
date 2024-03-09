@@ -59,10 +59,6 @@ Another approach to center the container in both directions, because the other s
 }
 ```
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 ### Useful resources
 
 - [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - very useful site about css grids, with which I'm still struggeling

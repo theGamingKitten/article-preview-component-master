@@ -179,4 +179,20 @@ button:hover {
     .content {
         width: 100%;
     }
+    .tooltip .tooltiptext {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        height: 70px;
+        width: 250px; /*337*/
+        bottom: -65%;
+        left: 50%;
+        margin-left: -283px;
+    }
+    .tooltip .tooltiptext::after {
+        display: none;
+    }
 }
