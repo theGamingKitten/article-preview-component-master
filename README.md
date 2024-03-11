@@ -30,6 +30,8 @@ Users should be able to:
 
 ![](./screenshot_mobile.jpg)
 
+![](./screenshot_mobile_active.jpg)
+
 ### Links
 
 - [Solution](https://github.com/theGamingKitten/article-preview-component-master)
@@ -63,6 +65,7 @@ Another approach to center the container in both directions, because the other s
 
 - [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - very useful site about css grids, with which I'm still struggeling
 - [w3schools](https://www.w3schools.com/css/css_tooltip.asp/) - used w2schools to implement the tooltip
+- [baby_wolf_codes@instagram](https://www.instagram.com/p/C2eDvMOv-dT/?img_index=1) - for implementing the snackbar
 
 ## Author
 

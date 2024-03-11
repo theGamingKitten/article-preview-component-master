@@ -10,7 +10,7 @@
 </head>
 <body>
 <main>
-  <div class="article-container">
+  <div class="article-container" id="article-container">
     <div class="image">
       <img 
       src="./images/drawers.jpg" 
@@ -31,23 +31,32 @@
           alt="Michelle Appleton">
         <span class="author-name">Michelle Appleton</span>
         <span class="author-date">28 Jun 2020</span>
-        <div class="tooltip">        
-        <button id="share-button">      
+        <button class="action" id="share-button">      
           <img 
             class="share"
             src="./images/icon-share.svg" 
             alt="Share">            
         </button>
+        <!--TOOLTIP-->
+        <div class="tooltip">                
         <div class="tooltiptext hidden" id="tooltiptext">
           <span>SHARE</span>
           <img src="./images/icon-facebook.svg" alt="Share on Facebook">
           <img src="./images/icon-twitter.svg" alt="Share on Twitter">
           <img src="./images/icon-pinterest.svg" alt="Share on Pinterest">
+        </div>        
+        <!--SNACKBAR-->
+        <div class="snackbar hidden" id="snackbar-div">
+          <span class="snackbar-content">
+            <span class="share-text">SHARE</span>
+          <img src="./images/icon-facebook.svg" alt="Share on Facebook">
+          <img src="./images/icon-twitter.svg" alt="Share on Twitter">
+          <img src="./images/icon-pinterest.svg" alt="Share on Pinterest">
+          </span>          
         </div>
         </div>
       </div>      
     </div>  
-  </div>
   </div>
 <script src="script.js"></script>
 </main>
